@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(12, 12, 12);
+    color: white;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+
+}
+.image-b {
+    max-width: 15vw;
+    max-height: 15vh;
+}
+header {
+    margin: 3vh auto;
+    text-align: center;
+    margin-bottom: 20vh;
+}
+h1 {
+    font-size: 48px;
+}
+button {
+    display: block;
+    margin: auto;
+}
+footer {
+    text-align: center;
+    grid-column: 2;
+    margin-top: 15vh;
+    letter-spacing: .4rem;
+}
+body {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+.side-image {
+    max-width: 25vw;
+    height: 100vh;
+}
+.one  {
+    grid-column: 1;
+    position: absolute;
+    object-fit: fill;
+}
+.two {
+    grid-column: 3;
+    object-fit: cover;
+}
+section {
+    grid-column: 2;
+    margin: 0 auto;
+}
+p {
+    font-size: 20px;
+}
+#result {
+    margin-top: 5vh;
+    text-align: center;
+}
